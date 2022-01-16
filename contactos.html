@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAWAYANA</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/materialize.min.css">  
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+  <header id="home">
+    <nav class="nav">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#!" class="brand-logo brand">Contactos</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down menu">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+            <li><a href="./discografia.html">Discografia</a></li>
+            <li><a href="#contact">Contactos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="./index.html">Inicio</a></li>
+    <li><a href="./galeria.html">Galeria</a></li>
+    <li><a href="./discografia.html">Discografia</a></li>
+    <li><a href="#">Contactos</a></li>
+  </ul>
+
+  <main class="main-info">
+    <div class="absolute-title">
+      <h3>Rawayanaland</h3>
+    </div>
+    <div class="container">
+      <div data-aos="fade-right" data-aos-duration="2000">
+        <h1><span>Hecho </span>en Venezuela</h1>
+        <p>El año 2021 y vivimos en el pináculo de una globalización que, impulsada por avances tecnológicos y culturales recientemente inimaginables, promete permitirnos a la raza humana ser más libres y felices. En contraste, tantas veces pareciera que estas herramientas nos alejan de la utopía.</p>
+        <button class="btn-info">Brocoli Records</button>
+      </div>
+       <img src="./imagenes/26.jpeg" alt="xk-drums tama" data-aos="fade-left" data-aos-duration="2000">
+    </div>
+  </main>
+  <article class="overlay-section">
+    <div class="overlay">
+      <div class="container">
+        <h2>"Cuando los Acéfalos Predominan"</h2>
+        <p>En el intento por entender el mundo en que vivimos, de manera recurrente tropezamos con una noción que siempre parece encontrar lugar en la razón: quienes ejercen influencia y liderazgo han perdido la cabeza. No obstante, una y otra vez nuestros esfuerzos por resistirnos a esa realidad resultan contraproducentes.</p>
+      </div>
+    </div>
+  </article>
+  <div class="our-drummers" id="drummers">
+    <h2>Welcome To El Sur</h2>
+    <div class="divider"></div>
+    <div class="drummers" >
+      <div class="gallery">
+        <a href="./imagenes/20.jpg"><img src="./imagenes/20.jpg" alt="1" /></a>
+        <a href="./imagenes/21.jpg"><img src="./imagenes/21.jpg" alt="2" /></a>
+        <a href="./imagenes/22.jpg"><img src="./imagenes/22.jpg" alt="3" /></a>
+        <a href="./imagenes/23.jpg"><img src="./imagenes/23.jpg" alt="4" /></a>
+        <a href="./imagenes/24.jpg"><img src="./imagenes/24.jpg" alt="5" /></a>
+        <a href="./imagenes/25.jpg"><img src="./imagenes/25.jpg" alt="6" /></a>
+    </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <form class="container-form">
+      <h2>Booking</h2>
+      <input type="text" placeholder="Nombre">
+      <input type="text" placeholder="Email">
+      <textarea placeholder="Mensaje">Mensaje</textarea>
+      <button class="btn-info">Enviar mensaje</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="social-media">
+        <h3>Siguenos</h3>
+        <a href="https://open.spotify.com/artist/2AbQwU2cuEGfD465wCXlg2" target="_blank"><i class="fab fa-spotify"></i></a>
+        <a href="https://twitter.com/Rawayana?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="info">
+      <h3>Info Banda</h3>
+      <ul >
+        <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./galeria.html">Galeria</a></li>
+          <li><a href="./discografia.html">Discografia</a></li>
+          <li><a href="#contact">Contactos</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/simple-lightbox.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+  </script>
+</body>
+</html>
