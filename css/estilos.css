@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,200;1,300;1,700&family=Roboto:ital,wght@0,300;0,500;1,100;1,700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +19,8 @@ html {
 }
 
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -35,6 +38,10 @@ body {
 .material-icons {
   color: #000;
   margin-left: -0.9em;
+}
+
+.nombre {
+  color: #fff;
 }
 
 .container {
@@ -55,7 +62,7 @@ body {
 
 .menu a:hover {
   background-color: var(--alt-color);
-  color: #fff;
+  color: rgb(117, 115, 115);
 }
 
 .main-info .container {
@@ -254,6 +261,12 @@ h1 {
   justify-content: space-between;
 }
 
+.footer-content {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .social-media .fab {
   margin-right: 20px;
   font-size: 2em;
@@ -292,6 +305,7 @@ h1 {
     width: 55%;
     display: flex;
     flex-direction: column;
+    color: white;
   }
 
   .container-form textarea {
